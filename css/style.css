@@ -9,6 +9,7 @@
 .header_villaStephy{
     background-color: rgb(123, 189, 228);
     height: 50px;
+    padding: 10px;
     box-shadow: 2px 5px 39px -11px rgba(0,0,0,0.81);
 -moz-box-shadow: 2px 5px 39px -11px rgba(0,0,0,0.81);
 box-shadow: 2px 5px 39px -11px rgba(0,0,0,0.81);
@@ -18,8 +19,5 @@ box-shadow: 2px 5px 39px -11px rgba(0,0,0,0.81);
 .header_villaStephy .titulo_header{
     color: white;
     width: 300px;
-    padding: 0px 10px 0px 10px;
-    
-    margin-top: -14px;
-    
+    margin-top: -21px;
 }
