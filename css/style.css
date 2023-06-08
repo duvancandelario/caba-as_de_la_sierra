@@ -7,12 +7,15 @@
 }
 
 .header_villaStephy{
-    background-color: rgb(123, 228, 160);
+    background-color: rgb(123, 189, 228);
+    height: 50px;
 }
 
 .header_villaStephy .titulo_header{
     color: white;
-    width: 200px;
+    width: 300px;
     padding: 0px 10px 0px 10px;
+    
+    margin-top: -14px;
     
 }
