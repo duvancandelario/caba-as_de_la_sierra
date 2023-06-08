@@ -21,3 +21,19 @@ box-shadow: 2px 5px 39px -11px rgba(0,0,0,0.81);
     width: 300px;
     margin-top: -21px;
 }
+
+nav{
+    margin-top: -30px;
+    float: right;
+}
+
+.ul_list .nav_list{
+    display: inline;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    margin: 0px 30px 0px 30px;
+}
+
+.nav_list:hover{
+    font-size: 20px;
+}
