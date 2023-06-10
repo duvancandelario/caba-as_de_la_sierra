@@ -6,11 +6,9 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
-#background{
-   
-}
 
 .contenedor{
+
     height: 80px;
     padding: 10px;
     color: rgb(0, 0, 0);
@@ -22,6 +20,11 @@
     float: left;
 }
 
+label{
+    margin-top: 5px;
+    font-size: 40px;
+}
+
 .ul_list, .contenedor label, .contenedor input{
     float: right;
 }
@@ -31,10 +34,40 @@
     
 }
 
+.contenedor_imagen .background{
+    position:absolute;
+}
+
+@media(max-width: 767px){
+
+    .contenedor .ul_list{
+        width: 100%;
+        
+    }
+.contenedor label{
+    display: block;
+}
+
+.contenedor .nav_list strong{
+    display: block;
+    border-bottom: solid 1px;
+    }
+
+
+.contenedor .ul_list{
+    transform: translateX(-110%);
+}
+
+.contenedor input:checked ~ .ul_list{
+    transform: translateX(0);
+    transition:all .5s;
+}
+
+}
+
 
 .ul_list .nav_list{
     display: inline;
-    
     font-size: 30px;
     padding: 0px 20px 0px 20px;
 }
