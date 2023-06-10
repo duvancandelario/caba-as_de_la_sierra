@@ -7,18 +7,13 @@
 }
 
 #background{
-    background: url(/assets/background2.jpeg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    
-
+   
 }
 
 .contenedor{
     height: 80px;
     padding: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .logo_background{
@@ -31,12 +26,11 @@
     float: right;
 }
 
-/*
 .contenedor label, .contenedor input{
     display: none;
     
 }
-*/
+
 
 .ul_list .nav_list{
     display: inline;
