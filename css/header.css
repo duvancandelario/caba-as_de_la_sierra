@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#background{
+    background: url(/assets/background2.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position : center;
+
+}
+
+.header_villaStephy{
+    background-color: transparent;
+    
+    height: 80px;
+    padding: 10px;
+}
+
+.logo_background{
+    width: 110px;
+    margin-top: -20px;
+    float: left;
+}
+
+.nav_bar{
+    float: right;   
+}
+
+.ul_list .nav_list{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    padding: 0px 20px 0px 20px;
+}
