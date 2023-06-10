@@ -10,15 +10,15 @@
     background: url(/assets/background2.jpeg);
     background-size:cover;
     background-repeat: no-repeat;
-    background-position : center;
+    background-position:center;
+    
 
 }
 
-.header_villaStephy{
-    background-color: transparent;
-    
+.contenedor{
     height: 80px;
     padding: 10px;
+    color: white;
 }
 
 .logo_background{
@@ -27,13 +27,20 @@
     float: left;
 }
 
-.nav_bar{
-    float: right;   
+.ul_list, .contenedor label, .contenedor input{
+    float: right;
 }
+
+/*
+.contenedor label, .contenedor input{
+    display: none;
+    
+}
+*/
 
 .ul_list .nav_list{
     display: inline;
-    color: white;
+    
     font-size: 30px;
     padding: 0px 20px 0px 20px;
 }
