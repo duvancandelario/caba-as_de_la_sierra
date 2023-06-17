@@ -9,6 +9,8 @@
 }
 
 
+
+
 .contenedor{
 
     height: 80px;
@@ -27,6 +29,7 @@ label{
     font-size: 40px;
 }
 
+
 .ul_list, .contenedor label, .contenedor input{
     float: right;
 }
@@ -39,6 +42,16 @@ label{
 .contenedor_imagen .background{
     position:absolute;
 }
+
+.icono_whatsapp{
+    width: 120px;
+    position: fixed;
+    margin-top:42%;
+    
+}
+
+
+
 /*MEDIA QUERIES (RESPONSIVE)*/
 @media(max-width: 767px){
 
@@ -53,6 +66,8 @@ label{
 .contenedor .nav_list strong{
     display: block;
     border-bottom: solid 1px;
+    margin-left: 20px;
+    margin-bottom: -25px;
     }
 
 
@@ -65,11 +80,40 @@ label{
     transition:all .5s;
 }
 
+.nav_list .ul_actividades{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10%;
+    padding: 0px;
+    margin-bottom: -40px;
+}
+
+.nav_list .ul_reservas{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10%;
+    padding: 0px;
+    margin-bottom: -40px;
+    
+}
+
+.nav_list .ul_actividades .li_actividades{
+    border-bottom: solid 1px;
+    
+}
+
+.nav_list .ul_reservas .li_actividades{
+    border-bottom: solid 1px;
+    
 }
 
 
+}
+/*AQUI TERMINA EL MEDIA QUERIE*/
+
 .ul_list{
     margin-top: 10px;
+    margin-right: 20px;
 }
 
 .ul_list .nav_list{
@@ -78,13 +122,36 @@ label{
     padding: 0px 20px 0px 20px;
 }
 
-/*HERO*/
+
+.ul_actividades{
+    font-size: 30px;
+    position: absolute;
+    margin-left: 120px;
+    display: none;
+}
+
+.contenedor .ul_list li:hover > .ul_actividades{
+    display: block;
+}
+
+.ul_reservas{
+    font-size: 30px;
+    position: absolute;
+    margin-left: 275px;
+    display: none;
+}
+
+.contenedor .ul_list li:hover > .ul_reservas{
+    display: block;
+}
+
+/*HERO*/        
 
 .hero{
     width: 100%;
     /*Alto de 100vh que es 1 pantalla*/
     height: 100vh;
-    background-image: url(/assets/background.jpeg);
+    background-image: url(/assets/background2.jpeg);
     background-position: center;
     background-repeat: no-repeat;
 
