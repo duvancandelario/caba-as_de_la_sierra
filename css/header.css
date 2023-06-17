@@ -108,7 +108,7 @@ label{
 }
 
 
-}
+}   
 /*AQUI TERMINA EL MEDIA QUERIE*/
 
 .ul_list{
@@ -131,7 +131,7 @@ label{
 }
 
 .contenedor .ul_list li:hover > .ul_actividades{
-    display: block;
+    display: block; 
 }
 
 .ul_reservas{
